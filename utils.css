@@ -1,0 +1,51 @@
+.text-center{
+    text-align: center;
+  }
+  .bg-red{
+    background: red;
+  }
+  .mx-auto{
+    margin: auto;
+  }
+  .m-w-20{
+    max-width: 30vw;
+  }
+  .flex{
+    display: flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  .items-center{
+    align-items: center;
+  }
+  .cone{
+    width: 35vw;
+    margin: 0 auto;
+    height: 3vw;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+  }
+  .line{
+    width: 25vw;
+    height: 0.2vw;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  .line_anim{
+    height: 0.2vw;
+    width: 1vw;
+    background: #000;
+    margin: 0 auto;
+    animation: linein 3s linear infinite;
+  }
+  @keyframes linein {
+    0%,100%{
+        width: 1vw;
+    }
+    50%{
+        width: 25vw;
+    }
+  }
